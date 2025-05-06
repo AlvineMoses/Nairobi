@@ -19,7 +19,7 @@ const Otp = () => {
   };
 
   // Function to update SVG color by manipulating it as a string
-  const updateSvgColor = (newColor) => {
+  const updateSvgColor = (newColor: string) => {
     fetch("/Nairobi.svg")
       .then((response) => response.text())
       .then((svgText) => {
