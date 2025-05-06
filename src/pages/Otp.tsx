@@ -14,7 +14,7 @@ const Otp = () => {
       // Create a new version of the SVG with updated color
       updateSvgColor(colorInput);
     } else {
-      alert("Please enter a valid hex color (e.g., #FF5733)");
+      alert("Please enter a valid hex color (e.g., #2896f5)");
     }
   };
 
