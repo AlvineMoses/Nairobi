@@ -66,8 +66,8 @@ function App() {
             {/* <Nav /> */}
 
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/otp" element={<Otp />} />
+              <Route path="/" element={<Otp />} />
+              <Route path="/otp" element={<Home />} />
             </Routes>
           </div>
         </BrowserRouter>
