@@ -20,7 +20,7 @@ const Otp = () => {
 
   // Function to update SVG color by manipulating it as a string
   const updateSvgColor = (newColor: string) => {
-    fetch("/Nairobi.svg")
+    fetch("/LittleMap.svg")
       .then((response) => response.text())
       .then((svgText) => {
         // Replace all instances of the current color (#2896F5) with the new color
@@ -67,7 +67,7 @@ const Otp = () => {
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundImage: "url(/Nairobi.svg)",
+          backgroundImage: "url(/LittleMap.svg)",
           backgroundSize: "contain",
           backgroundPosition: "center bottom",
           backgroundRepeat: "no-repeat",
