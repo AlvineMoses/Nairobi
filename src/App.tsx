@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
 import Otp from "./pages/Otp";
 // import Nav from "./components/Nav/Nav";
 import "./App.css";
