@@ -20,7 +20,7 @@ const Otp = () => {
 
   // Function to update SVG color by manipulating it as a string
   const updateSvgColor = (newColor: string) => {
-    fetch("/LittleMap.svg")
+    fetch("/LittleMaps.svg")
       .then((response) => response.text())
       .then((svgText) => {
         // Replace all instances of the current color (#2896F5) with the new color
@@ -49,7 +49,7 @@ const Otp = () => {
       className="otp-container"
       style={{
         position: "relative",
-        width: "100%",
+        width: "100vw", // Changed from 100% to 100vw
         height: "100vh",
         display: "flex",
         flexDirection: "column",
@@ -66,10 +66,10 @@ const Otp = () => {
           position: "absolute",
           top: 0,
           left: 0,
-          width: "100%",
-          height: "100%",
-          backgroundImage: "url(/LittleMap.svg)",
-          backgroundSize: "contain",
+          width: "100vw", // Changed from 100% to 100vw
+          height: "100vh",
+          backgroundImage: "url(/LittleMaps.svg)",
+          backgroundSize: "cover", // Changed from contain to cover
           backgroundPosition: "center bottom",
           backgroundRepeat: "no-repeat",
           zIndex: -1,
