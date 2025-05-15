@@ -67,7 +67,7 @@ function App() {
 
             <Routes>
               <Route path="/" element={<Otp />} />
-              <Route path="/otp" element={<Home />} />
+              
             </Routes>
           </div>
         </BrowserRouter>
