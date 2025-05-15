@@ -53,9 +53,10 @@ const Otp = () => {
         height: "100vh",
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
+        justifyContent: "flex-start", // Changed from center to flex-start
         alignItems: "center",
         overflow: "hidden",
+        paddingTop: "28vh", // Added padding to position the form higher
       }}
     >
       {/* SVG Background with ID for dynamic updates */}
@@ -129,6 +130,7 @@ const Otp = () => {
           textAlign: "center",
           boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
           zIndex: 1,
+          marginTop: "-5vh", // Added negative margin to move it higher
         }}
       >
         <h2>OTP Verification</h2>
